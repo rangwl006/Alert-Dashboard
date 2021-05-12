@@ -1,0 +1,17 @@
+{
+    "use_offline_video": true,
+    "direct_connection": false,
+    "use_roi": false,
+    "resolution": [720, 480],
+    "yolo_thres": 0.2,
+    "fps": 20,
+    "StaticRTSP": "",
+    "url": ["rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov",
+                   "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov",
+                   "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov"],
+    "id": [0,1,2],
+    "device_id": "/dev/video0",
+    "use_vid_alert": false,
+    "vid_alert_length": 50,
+    "MaxdroppedFrames": 60
+}
